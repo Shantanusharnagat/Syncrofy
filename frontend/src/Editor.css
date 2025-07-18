@@ -1,0 +1,37 @@
+/* Apply to Quill's snow theme overrides */
+.ql-toolbar {
+    background: #242952;
+    border-radius: 8px 8px 0 0;
+    border: none;
+    box-shadow: 0 1px 3px rgba(30, 34, 70, 0.09);
+}
+
+.ql-container {
+    border-radius: 0 0 8px 8px;
+    background: #23263a;
+    min-height: 350px;
+    color: #eee;
+    font-size: 1.05em;
+    border: none;
+}
+
+.ql-editor {
+    min-height: 320px;
+    max-height: 440px;
+    font-size: 1.07em;
+    line-height: 1.7;
+    color: #e7e7ef;
+}
+
+
+@media (max-width: 600px) {
+    .ql-toolbar {
+        font-size: 0.93em;
+        padding: 0.7em 0.3em;
+    }
+
+    .ql-container {
+        font-size: 0.97em;
+        min-height: 220px;
+    }
+}

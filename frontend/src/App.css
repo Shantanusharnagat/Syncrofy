@@ -1,0 +1,40 @@
+.App {
+  min-height: 100vh;
+  background: #202234;
+  color: #fff;
+  font-family: 'Segoe UI', 'Inter', 'Roboto', Arial, sans-serif;
+}
+
+main.editor-container {
+  max-width: 860px;
+  margin: 2.5rem auto 0 auto;
+  padding: 1rem;
+  background: #23263a;
+  border-radius: 9px;
+  min-height: 440px;
+  box-shadow: 0 2px 18px rgba(44, 60, 100, 0.16);
+}
+
+/* Modal styles */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(24, 27, 35, 0.45);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #222542;
+  color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 4px 14px rgba(30, 34, 70, 0.19);
+  padding: 2rem 2.5rem;
+  min-width: 330px;
+  position: relative;
+}
