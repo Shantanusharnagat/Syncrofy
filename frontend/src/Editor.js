@@ -41,7 +41,7 @@ export default function Editor({ token, documentId }) {
   useEffect(() => {
     if (!quill || !token || !documentId) return;
 
-    socketRef.current = io('http://localhost:5000', {
+    socketRef.current = io('https://syncrofy-backend.onrender.com', {
       auth: { token }
     });
 
